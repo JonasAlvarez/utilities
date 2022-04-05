@@ -1,0 +1,3 @@
+#TYPE Selected.Microsoft.Exchange.Data.Directory.Management.RemoteMailbox
+"SamAccountName","PrimarySmtpAddress","RemoteRoutingAddress","LegacyExchangeDN","EmailAddresses"
+"xxx","xxx@xxx","SMTP:xxx@xxx.mail.onmicrosoft.com","/o=xxx","x500:xxx;smtp:yyy;zzz;SMTP:xxx"
