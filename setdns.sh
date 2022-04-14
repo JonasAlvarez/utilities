@@ -17,7 +17,7 @@ if [ "$dnsip" != "$myip" -a "$myip" != "" ]; then
 
   if [ $? -ne 0 ]
   then
-    logger -p $logdest "google_dns: Error ${m} changing IP on ${hostname}.${HOSTNAME} from ${dnsip} to ${myip}"
+    logger -p $logdest "google_dns: Error ${m} changing IP on ${HOSTNAME} from ${dnsip} to ${myip}"
   else
     logger -p $logdest "google_dns: Changed IP on ${HOSTNAME} from ${dnsip} to ${myip}"
   fi
